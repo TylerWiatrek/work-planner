@@ -10,7 +10,7 @@ $(document).ready(function() {
         setTimeout(function() {
             $('.notification').removeClass("show");
 
-        }, 10000)
+        }, 5000)
     
     })
 

@@ -29,6 +29,10 @@ textarea{
   display: none;
 }
 
+.show {
+  display: block;
+}
+
 .time-block{
   text-align: center;
   border-radius: 15px;
@@ -75,4 +79,9 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.container p {
+  font-size: 18px;
+  font-weight: bold;
+
+}
 
