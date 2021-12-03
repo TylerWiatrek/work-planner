@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--Setting links here for bootstrap, icons, fonts-->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -20,23 +21,28 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"/>
     <link rel="stylesheet" href="style.css" />
+    <!--Setting title here, also will display on the browser tab-->
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <!--Establishing th header here which the user will first see on the webpage-->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!--adding a p element here to dynamically display the current day, see js file for specific code-->
       <p id="currentDay" class="lead"> </p>
     </header>
+    <!--adding a section here to notify the user when an appointment has been notified-->
     <section class="text-center notification" id="notify">
       Appointment added to planner.
 
     </section>
     <div class="container">
-      <!-- Timeblocks go here -->
+      <!-- Timeblocks go here. There are many time blocks here. Starting at 7:00am and ending at 6:00pm. Each block has the same classes-->
       <div id="hour7" class="row time-block">
         <p class="col-md-1">7:00am - 8:00am</p>
+        <!--creating a textarea here so that the user can enter there task here in this area. The following code will repeat the same structure-->
         <textarea class="col-md-10 description">
           
         </textarea>
@@ -132,13 +138,14 @@
         <textarea class="col-md-10 description">
 
         </textarea>
+        <!--adding a button class to dynamically create the button to save the task-->
         <button class="save-button btn col-md-1"><span class="oi oi-task"></span>
 
         </button>
       </div>
 
     </div>
-
+    <!--Adding links to the js file, jquery, and moment.js-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./script.js"></script>
