@@ -27,6 +27,7 @@ Once the user has entered a task and hit the save button, the browser will save 
 The Work Day Planner is a great way to help busy individuals keep track of certain tasks throughout the day. Using the current day and time, we allow the user to visually see a representation of the tasks to do throughout the day to help keep their day as organized as possible.
 
 Please visit the link below to start your planner:
+https://tylerwiatrek.github.io/work-planner/
 
 
 
