@@ -12,11 +12,11 @@ Work Day Scheduler is an organized planner that users can interact with to help 
 
 ## Planner Format
 Once the user visits the webpage, they will be presented with this image:
-![Screenshot of Work Day Planner](./Develop/readme-intro.JPG "Work Day Planner")
+![Screenshot of Work Day Planner](./readme-intro.JPG "Work Day Planner")
 
 The planner starts at 7:00am and goes until 6:00pm. The user can just simply click on a timeblock to enter a task and then hit the save button on the right to save this task. Depending of what time it currently is, the planner will change the color for certain time blocks. This will help the user identify which tasks are in the past, present, or future. Past events are marked in grey, present events are marked red, and future events are marked in green. Below is a screenshot of what the user might see if their current time is 2:40pm:
 
-![Screenshot of Work Day Planner](./Develop/readme-time.JPG "Work Day Planner Time")
+![Screenshot of Work Day Planner](./readme-time.JPG "Work Day Planner Time")
 
 The 2:00pm-3:00pm time block is displayed in red signifying that this is the present and that the remaining time blocks from here are green meaning they are in the future.
 
