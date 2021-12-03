@@ -42,7 +42,6 @@ $(document).ready(function() {
         $('.time-block').each(function() {
             var checkTime = $(this).attr("id")
             var blockTime = checkTime.match(/\d+/)
-            console.log(blockTime[0]);
             // running if statements to determine if the current hour is in the past, present, or future.
             // depending on which hour we are in, the color of that row will change.
             if (parseInt(blockTime[0]) < currentHour) {
